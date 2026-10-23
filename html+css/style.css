@@ -1,0 +1,128 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #a8a098;
+  color: #eccb83;
+}
+
+main {
+  max-width: 32rem;
+  padding: 2.5rem;
+  background: #a8a098;
+  border: 2px solid #38332c;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0 0 0.75rem;
+}
+
+a {
+  color: #e5a93c;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.p1 {
+    padding: 0;
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+}
+
+.img1 {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    width: 200px;
+    height: auto;
+    padding: 0;
+    border-radius: 8px;
+    border: 2px solid #38332c;
+    animation:2s rotate infinite linear;
+}
+
+.img2 {
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    width: 200px;
+    height: auto;
+    padding: 0;
+    border-radius: 8px;
+    border: 2px solid #38332c;
+    animation:2s rotate infinite linear;
+}
+
+@keyframes rotate {
+    100%{ transform:rotate(1turn) }
+}
+
+.button {
+  display: inline-block;
+  padding: 10px, 20px;
+  font-size: 20px;
+  background-color: rgb(69, 69, 155);
+  color: azure;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+
+}
+
+.button:hover {
+  background-color: rgb(98, 98, 209);
+  color: azure;
+  text-decoration: none;
+}
+
+
+/* second page */
+
+.p2 {
+    background: #a8a098;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 5rem;
+    align-items: center; 
+}
+
+.p3 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 5rem;
+  border-style: solid;
+  border-width: 3px;
+  border-color:#a8a098;
+  border-radius: 8px;
+
+}
+
+/* third page */
+
+.p4 { 
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 5rem;
+  background: #a8a098;
+  align-items: center;
+  padding: 5px;
+} 
