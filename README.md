@@ -10,7 +10,8 @@ A website I created with a few pictures, subpages, and other features. It took a
 # Info 
 Tech stack: HTML and CSS
 Dependencies: Web browser
-Installation: no installation; just use the link - 
+Installation: no installation required; use the link - https://jules9489.github.io/Website/
+If you wish, you can clone the repository and then run the index.html locally. 
 
 # License
-This project is licensed under the License
+This project is licensed under the MIT License - view [LICENSE.md](LICENSE.md) for more details. 
