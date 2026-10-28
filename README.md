@@ -14,4 +14,4 @@ Installation: no installation required; use the link - https://jules9489.github.
 If you wish, you can clone the repository and then run the index.html locally. 
 
 # License
-This project is licensed under the MIT License - view [LICENSE.md](LICENSE.md) for more details. 
+This project is licensed under the MIT License - view [LICENSE.md](LICENSE) for more details. 
